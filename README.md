@@ -1,94 +1,169 @@
-<div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966" />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Jadhav | GitHub Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
 
-###
+        .container {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn logo" />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube logo" />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter logo" />
-</div>
+        h1, h2 {
+            color: #ffffff;
+        }
 
-###
+        .details, .social-links {
+            list-style-type: none;
+            padding: 0;
+        }
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=sumitjadhav.sumitjadhav" alt="visitor badge"/>
-</div>
+        .details li {
+            margin: 10px 0;
+        }
 
-###
+        .social-links li {
+            display: inline;
+            margin-right: 15px;
+        }
 
-<h1 align="center">Hey there 👋, I'm Sumit Jadhav</h1>
+        .social-links a {
+            text-decoration: none;
+            color: #00e6e6;
+        }
 
-###
+        .social-links a:hover {
+            text-decoration: underline;
+        }
 
-<h3 align="left">👩‍💻 About Me</h3>
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+            justify-content: center;
+        }
 
-###
+        .skills img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.2s;
+        }
 
-<p align="left">
-  I'm a passionate Full-Stack Developer from India.<br><br>
-  - 🔭 I’m currently working on enhancing my skills in Android development.<br>
-  - 📚 I'm currently learning <strong>React Native</strong> for Android development.<br>
-  - ⚡ In my free time, I love playing video games and exploring new technologies.
-</p>
+        .skills img:hover {
+            transform: scale(1.1);
+        }
 
-###
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
 
-<h3 align="left">🛠 Languages and Tools</h3>
+        .stats-box {
+            background-color: #292929;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+            min-width: 280px;
+        }
 
-###
+        .banner img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="images/android_developer_banner.png" alt="Android Developer Banner">
+        </div>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="SQL logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xml/xml-original.svg" height="40" alt="XML logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="Android Studio logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" alt="VS Code logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="PyCharm logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="Google Cloud logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="Firebase logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React Native logo" />
-</div>
+        <h1>Hi 👋, I'm Sumit Jadhav</h1>
+        <p>A passionate Full-Stack developer</p>
 
-###
+        <ul class="details">
+            <li>👋 Hi, I’m Sumit Jadhav</li>
+            <li>👀 I’m interested in Full Stack Development</li>
+            <li>🌱 I’m currently learning <strong>React Native</strong> for Android development</li>
+            <li>💞️ I’m looking to collaborate on App Development</li>
+            <li>📫 Connect With me on My Gmail: <a href="mailto:sumitjadhav6067@gmail.com">sumitjadhav6067@gmail.com</a></li>
+            <li>⚡ Fun fact: I also play video games</li>
+        </ul>
 
-<h3 align="left">🔥 My GitHub Stats:</h3>
+        <h2>Connect with me:</h2>
+        <ul class="social-links">
+            <li><a href="https://github.com/Victorsward32" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sumit-jadhav-a51894157/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://medium.com/@sumitjadhav6067" target="_blank">Medium</a></li>
+            <li><a href="https://www.hackerrank.com/profile/sumitjadhav6067" target="_blank">HackerRank</a></li>
+        </ul>
 
-###
+        <div class="stats-container">
+            <div class="stats-box">
+                <h3>Most Used Languages</h3>
+                <img src="images/languages_chart.png" alt="Languages Chart" style="width:100%;">
+            </div>
+        </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitjadhav&theme=dark&hide_border=false&border_radius=5&layout=compact" height="150" alt="Most Used Languages"/>
-</div>
+        <h2>Languages:</h2>
+        <div class="skills">
+            <img src="images/python.png" alt="Python">
+            <img src="images/java.png" alt="Java">
+            <img src="images/html.png" alt="HTML">
+            <img src="images/css.png" alt="CSS">
+            <img src="images/javascript.png" alt="JavaScript">
+            <img src="images/sql.png" alt="SQL">
+            <img src="images/xml.png" alt="XML">
+            <img src="images/mongodb.png" alt="MongoDB">
+        </div>
 
-###
+        <h2>Tools:</h2>
+        <div class="skills">
+            <img src="images/android_studio.png" alt="Android Studio">
+            <img src="images/vscode.png" alt="VS Code">
+            <img src="images/git.png" alt="Git">
+            <img src="images/github.png" alt="GitHub">
+            <img src="images/pycharm.png" alt="PyCharm">
+            <img src="images/google_colab.png" alt="Google Colab">
+        </div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=sumitjadhav&theme=dark&hide_border=false&border_radius=5" height="150" alt="Streak Stats"/>
-</div>
+        <h2>Technologies/Frameworks:</h2>
+        <div class="skills">
+            <img src="images/react_native.png" alt="React Native">
+            <img src="images/flask.png" alt="Flask">
+            <img src="images/firebase.png" alt="Firebase">
+            <img src="images/django.png" alt="Django">
+        </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sumitjadhav&theme=dark&hide_border=false&border_radius=5&count_private=true&show_icons=true" height="150" alt="GitHub Stats"/>
-</div>
+        <h2>Cloud:</h2>
+        <div class="skills">
+            <img src="images/azure.png" alt="Microsoft Azure">
+        </div>
+    </div>
+</body>
+</html>
